@@ -49,6 +49,7 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - aoc2025
+    - optparse-applicative
 
 tests:
   aoc2025-test:
