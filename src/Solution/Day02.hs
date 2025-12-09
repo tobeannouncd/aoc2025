@@ -1,7 +1,7 @@
 {-# LANGUAGE OverloadedStrings #-}
-module Day02 (main) where
+module Solution.Day02 (main) where
 
-import Lib
+import Advent.Input
 
 import qualified Data.Text as T
 import qualified Data.Text.Read as TR

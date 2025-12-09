@@ -1,6 +1,6 @@
-module Day01 (main) where
+module Solution.Day01 (main) where
 
-import Lib
+import Advent.Input
 import Data.List (mapAccumL)
 import qualified Data.Text as T
 import qualified Data.Text.Read as TR

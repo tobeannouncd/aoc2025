@@ -1,5 +1,5 @@
 {-# LANGUAGE OverloadedStrings #-}
-module Lib (getInput) where
+module Advent.Input (getInput) where
 
 import Data.Text (Text, stripEnd)
 import Advent

@@ -38,6 +38,7 @@ library:
   dependencies:
   - advent-of-code-api
   - text
+  - containers
 
 executables:
   aoc2025-exe:

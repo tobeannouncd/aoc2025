@@ -2,13 +2,17 @@ module Main (main) where
 
 import Options.Applicative
 
-import qualified Day01
-import qualified Day02
+import qualified Solution.Day01 as Day01
+import qualified Solution.Day02 as Day02
+import qualified Solution.Day03 as Day03
+import qualified Solution.Day04 as Day04
 
 solutions :: [(Int, IO ())]
 solutions =
   [ (1, Day01.main)
   , (2, Day02.main)
+  , (3, Day03.main)
+  , (4, Day04.main)
   ]
 
 main :: IO ()
