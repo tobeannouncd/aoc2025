@@ -3,7 +3,6 @@ module Day01 (main) where
 import Lib
 import Data.List (mapAccumL)
 import qualified Data.Text as T
-import qualified Data.Text.IO.Utf8 as TIO
 import qualified Data.Text.Read as TR
 
 parseStep :: T.Text -> Int

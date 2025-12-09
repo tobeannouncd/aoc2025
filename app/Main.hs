@@ -3,10 +3,12 @@ module Main (main) where
 import Options.Applicative
 
 import qualified Day01
+import qualified Day02
 
 solutions :: [(Int, IO ())]
 solutions =
   [ (1, Day01.main)
+  , (2, Day02.main)
   ]
 
 main :: IO ()
